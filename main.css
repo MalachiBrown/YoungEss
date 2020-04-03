@@ -39,7 +39,7 @@ nav ul {
 }
 
 .body-item {
-  background: white;
+  background: none;
 grid-row: 2 / 3;
 	
 }
