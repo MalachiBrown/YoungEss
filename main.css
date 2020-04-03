@@ -39,6 +39,7 @@ nav ul {
 }
 
 .body-item {
+	color: none;
 	display: none;
   background: none;
 grid-row: 2 / 3;
