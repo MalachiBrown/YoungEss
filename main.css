@@ -17,7 +17,7 @@ body {
 	display: grid;
 	
 }
-@media only screen and (max-width: 440px){
+@media only screen and (max-width: 425px){
 
 	#body-grid {
 
@@ -42,7 +42,7 @@ body {
 	}
 }
 
-@media only screen and (min-width: 961px){
+@media only screen and (min-width: 900px){
 #body-grid {
 	background-color: #d2fafb;
 	grid-template: 10px repeat(14, 1fr) 10px / 10px repeat(14, 1fr) 10px;
