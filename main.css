@@ -34,6 +34,7 @@ body {
 	.profile{
 		grid-area: 2 / 1 / 6 / 4;
 		background-image: url(profile.jpg);
+		background-size: 360px;
 	}
 	.featured{
 	grid-area: 5 / 2 / 12 / 3;
@@ -42,7 +43,7 @@ body {
 	}
 }
 
-@media only screen and (min-width: 593px){
+@media only screen and (min-width: 592px){
 #body-grid {
 	background-color: #d2fafb;
 	grid-template: 10px repeat(14, 1fr) 10px / 10px repeat(14, 1fr) 10px;
