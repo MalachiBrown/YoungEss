@@ -1,30 +1,74 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Modak|Gruppo&display=swap');
+
+
+
 body {
-	background-image: url("young_ess.jpg");
-	background-size: auto 100vh;
-	background-position: top right;
-	background-repeat: no-repeat;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	
+	box-sizing: border-box;
 }
-
 #body-grid {
+
+	height: 100vh;
+	width: 100vw;
 	display: grid;
-	grid-template-columns: repeat(12, 180pt) ;
-	grid-template-rows: 10vh 25vh 60vh 20% 20%;
-	grid-gap: 5pt 5pt;
-	color: white;
-	border: 0;
+	
+}
+@media only screen and (max-width: 320px){
+
+	#body-grid {
+
+		background-color: #ebdcc6;
+		grid-template: repeat(auto-fill, 50px) / 10px 1fr 10px;
+		
+	}
+
+	.menu{
+		margin: 0px;
+		background-color:#ffffff;
+		grid-area: 1 / 2 / 2 / 3;
+	}
+	.profile{
+		grid-area: 2 / 1 / 6 / 4;
+		background-image: url(profile.jpg);
+	}
+	.featured{
+	grid-area: 5 / 2 / 12 / 3;
+	margin-top: 20px;
+	background-color: #ffffff;
+	}
 }
 
-#header-logo {
-	font-size: 52pt;
-	font-family: 'Modak', cursive;
-	grid-column: 1 / 4;
+@media only screen and (min-width: 321px){
+#body-grid {
+	background-color: #d2fafb;
+	grid-template: 10px repeat(14, 1fr) 10px / 10px repeat(14, 1fr) 10px;
+	gap: 5px;
+	
+
+} 
+
+.grid-child {
+	background-color:rgb(255, 215, 128);
+	
 }
+}
+/*
+#header-logo img {
+	
+	grid-column: 5 / span 9 ;
+	grid-row: 1 / span 6;
+
+}
+
+
 
 .flex-container {
 	
-	display: flex;
+	display: none;
 	flex-direction: column;
 	color: white;
 	width: 500px;
@@ -41,8 +85,8 @@ nav ul {
 .body-item {
 	color: none;
 	display: none;
-  background: none;
-grid-row: 2 / 3;
+  	background: none;
+	grid-row: 2 / 3;
 	
 }
 a:link, a:visited {

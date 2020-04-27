@@ -8,7 +8,11 @@
 </head>
 <body>
 <div id="body-grid">
-<div id="header-logo">Young Ess</div>
+
+<div class="menu">  </div>  
+<div class="profile"></div>
+<div class="featured"></div>
+<!--<div id="header-logo"><img src="logo_ess.svg" alt=""></div>
 <nav class="flex-container">
 <ul>
 <li><a href="">about</a></li>
@@ -17,10 +21,27 @@
 <li><a href="">connect</a></li>
 </ul>
 </nav>
+<br>
+<div style="grid-row: 4; color: #fe346e ;">Young Ess is an upcoming UK rapper from South London. He began making music in his early teens after being heavily influenced by the likes of Giggs, Nipsey Hussle, Jay-Z and Chronixx. He has released his official debut album ‘Stay Down Till You Come Up’ 2nd Feb. The album highlights his return to music as a conscious rapper with a lot of knowledge and life experiences to share, through his unique narrative in his music. Expect plenty of buzz around Young Ess this year from live shows to future releases.</div>
 <div class="body-item">About</div>
 <div class="body-item">Dates</div>
 <div class="body-item">Merch</div>
 <div class="body-item">Social</div>
+<script> 
+
+var i;
+for (i=0; i<(16*16); i++) {
+var grid = document.getElementById("body-grid");
+var item = document.createElement("div");
+item.className = "grid-child";
+grid.appendChild(item);
+
+}
+
+</script>
+
+-->
+
 </div>
 </body>
 </html>
