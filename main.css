@@ -27,6 +27,8 @@ body {
 	#body-grid {
 		grid-template: repeat(auto-fill, 50px) / 10px 1fr 10px;
 		background-image: url(album_art-400px.jpg);
+		background-size: cover ;
+		background-position: center;
 		
 		
 	}
