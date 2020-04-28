@@ -1,14 +1,19 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Modak|Gruppo&display=swap');
 
+:root {
+	font-size: 5vw;
 
-
+}
+* {
+	box-sizing: border-box;
+}
 body {
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
-	
-	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 #body-grid {
 
@@ -17,7 +22,7 @@ body {
 	display: grid;
 	
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 420px) and (min-width: 180px){
 
 	#body-grid {
 
@@ -35,28 +40,19 @@ body {
 		grid-area: 2 / 1 / 6 / 4;
 		background-image: url(profile.jpg);
 		background-size: 360px;
+		background-position: top center;
+
 	}
 	.featured{
-	grid-area: 5 / 2 / 12 / 3;
-	margin-top: 20px;
-	background-color: #ffffff;
+		grid-area: 5 / 2 / 19 / 3;
+		margin-top: .6rem;
+		background-color: #ffffff;
+		padding: 1rem;
 	}
+
 }
 
-@media only screen and (min-width: 592px){
-#body-grid {
-	background-color: #d2fafb;
-	grid-template: 10px repeat(14, 1fr) 10px / 10px repeat(14, 1fr) 10px;
-	gap: 5px;
-	
 
-} 
-
-.grid-child {
-	background-color:rgb(255, 215, 128);
-	
-}
-}
 /*
 #header-logo img {
 	
