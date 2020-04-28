@@ -25,9 +25,9 @@ body {
 @media only screen and (max-width: 420px) and (min-width: 180px){
 
 	#body-grid {
-
-		background-color: #ebdcc6;
 		grid-template: repeat(auto-fill, 50px) / 10px 1fr 10px;
+		background-image: url(album_art-400px.jpg);
+		
 		
 	}
 
