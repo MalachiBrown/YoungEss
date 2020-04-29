@@ -16,16 +16,17 @@ body {
 
 }
 #body-grid {
-
+	display: grid;
 	height: 100vh;
 	width: 100vw;
-	display: grid;
+	
 	
 }
 @media only screen and (max-width: 420px) and (min-width: 180px){
 
 	#body-grid {
-		grid-template: repeat(auto-fill, 50px) / 10px 1fr 10px;
+		grid-template: 10vh 1fr repeat(4, 10vh) / 1fr;
+		/* Main Background */
 		background-image: url(album_art-400px.jpg);
 		background-size: cover ;
 		background-position: center;
@@ -35,9 +36,18 @@ body {
 
 	.menu{
 		margin: 0px;
-		background-color:#ffffff;
-		grid-area: 1 / 2 / 2 / 3;
+		background-color:hsla(0, 0%, 100%, .7);
+		grid-area: 1 / 1 / 2 / 2;
 	}
+
+	.home_btn{
+		height: 6vh;
+		width: 6vh;
+		margin: 2vh;
+		float: right;
+		background-color: hsla(0, 0%, 15%, 1);
+	}
+
 	.profile{
 		grid-area: 2 / 1 / 6 / 4;
 		background-image: url(profile.jpg);
