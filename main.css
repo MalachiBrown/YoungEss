@@ -57,12 +57,14 @@ body {
 	}
 	.featured{
 		grid-area: 3 / 1 / 7 / 2;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 6vw;
 		font-family: 'Teko', sans-serif;
-		
 		font-size: 8vh;
 		font-weight: 500;
-		text-align: right;
-		margin-right: 6vw;
+		
+		
 		line-height: 9vh;
 		
 		
