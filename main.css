@@ -13,8 +13,16 @@ body {
 	border: 0px;
 	padding: 0px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+	background-position: top right;
+	background-image: url(young_ess.jpg);
 }
+
+a:link, a:hover, a:visited, a:active {
+	color: ghostwhite;
+	text-decoration: none;
+}
+
+
 #body-grid {
 	display: grid;
 	height: 100vh;
@@ -33,6 +41,12 @@ body {
 		
 		
 	}
+	nav img {
+		width: 100%;
+	}
+
+	
+
 
 	.menu{
 		margin: 0px;
@@ -47,15 +61,29 @@ body {
 		float: right;
 		background-color: hsla(0, 0%, 85%, 1);
 	}
+	.home_menu{
+		font-family: 'Teko';
+		font-size: 8vh;
+		padding-right: 2vh;
+		visibility: visible;
+		text-align: right;
+		margin-top: 10vh;
+		line-height: 9vh;
+		color: ghostwhite;
+	}
 
-	.profile{
+	.home_menu ul {
+		list-style-type: none;
+	}
+
+	.profile {
 		grid-area: 2 / 1 / 6 / 4;
 		background-image: url(profile.jpg);
 		background-size: 360px;
 		background-position: top center;
 
 	}
-	.featured{
+	.featured {
 		grid-area: 3 / 1 / 7 / 2;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -63,14 +91,26 @@ body {
 		font-family: 'Teko', sans-serif;
 		font-size: 8vh;
 		font-weight: 500;
-		
-		
 		line-height: 9vh;
-		
-		
-		
 	}
 
+	.album {
+		text-shadow: .2vw .2vw black ;
+		color:rgb(221, 17, 17); 
+		grid-area: 1 / 1 / 2 / 2; 
+		text-align: right;
+		padding-right: 1vw;
+		height: 26vh;
+		background-color: rgba(222, 184, 135, 0.651);
+	}
+	.out_now {
+		color: white;
+		background-color: rgba(255, 115, 0, 0.596);
+		padding-left: 1vw; 
+		margin-top: 17.9vh;
+		height: 8vh;
+
+	}
 }
 
 
