@@ -4,13 +4,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Malachi Brown">
 <link rel="stylesheet" type="text/css" href="main.css">
+
 <title>Young Ess</title>
 </head>
 <body>
 <div id="body-grid">
 
 <nav class="menu">
-    <div class="home_btn">
+    <div class="home_btn" onclick="displayMenu();">
             <img srcset="yng_ess+.svg">
     </div>
     <div class="home_menu">
@@ -23,6 +24,16 @@
         </ul>
     </div>
 </nav>
+<script>
+    
+    function displayMenu() {
+        /*It took me about 4 hours to completely understand the difference between getElementsByName and getElementById. The former returns an array, the latter an element object. */
+        var menu = document.getElementsByClassName("menu")[0].getElementsByClassName('home_menu')[0].style.visibility = 'hidden';
+        
+        console.log(menu)
+        
+    }
+</script>
 <div class="featured">
     <span class="album">
         Stay Down<br>Till You<br> Come Up
