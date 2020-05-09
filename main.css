@@ -78,6 +78,7 @@ body {
 		gap: 6vw;
 		font-family: 'Teko', sans-serif;
 		font-size: 8vh;
+		text-shadow: .2vw .2vw #4b5e47ff;
 		font-weight: 500;
 		line-height: 9vh;
 	}
@@ -86,16 +87,15 @@ body {
 		grid-area: 1 / 1 / 2 / 2; 
 		min-width: 128px;
 		color:#7d8c6bff; 
-		text-shadow: .2vw .2vw #4b5e47ff;
 		text-align: right;
 		background-color: #323c2bee;
-		padding-right: 1vw;
+		padding-right: 1.5vw;
 		height:fit-content;
 	}
 
 	.out_now {
-		color: white;
-		background-color: rgba(255, 115, 0, 0.596);
+		color: #323c2bee;
+		background-color: #7d8c6bff;
 		padding-left: 1vw; 
 		margin-top: 17.9vh;
 		height: 8vh;
