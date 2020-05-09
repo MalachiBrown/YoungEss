@@ -1,87 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="Malachi Brown">
-<link rel="stylesheet" type="text/css" href="main.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Malachi Brown">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="script.js"></script>
+        <title>Young Ess</title>
+    </head>
+    <body>
+            <header>
+            	<nav class="menu">
+            	    <div style="float: left; width: 6vh; height:6vh;"><img class="logo_yng" srcset="yng_ess+.svg"></div>
+            	    <div class="home_btn" onclick="displayMenu();">
+            	            <div style="width: 6vh; height: 1vh; margin-bottom: 1vh; background-color: #4b5e47ff;"></div>
+            	            <div style="width: 6vh; height: 1vh; margin-bottom: 1vh; background-color: #4b5e47ff;"></div>
+            	            <div style="width: 6vh; height: 1vh; margin-bottom: 1vh; background-color: #4b5e47ff;"></div>
+            	    </div>
+            	    <div class="home_menu">
+            	        <ul>
+            	            <li>Home</li>
+            	            <li><a href="https://ditto.fm/stay-down-till-you-come-up">Music</a></li>
+            	            <li><a href="video.html">Videos</a></li>
+            	            <li><a href="about.html">About</a></li>
+            	            <li><a href="connect.html">Connect</a></li>
+            	        </ul>
+            	    </div>
+            	</nav>
+            </header>
 
-<title>Young Ess</title>
-</head>
-<body>
-<div id="body-grid">
-
-<nav class="menu">
-    <div class="home_btn" onclick="displayMenu();">
-            <img srcset="yng_ess+.svg">
-    </div>
-    <div class="home_menu">
-        <ul>
-            <li>Home</li>
-            <li>Music</li>
-            <li>Videos</li>
-            <li><a href="about.html">About</a></li>
-            <li>Connect</li>
-        </ul>
-    </div>
-</nav>
-<script>
-    
-    function displayMenu() {
-        /*It took me about 4 hours to completely understand the difference between getElementsByName and getElementById. The former returns an array, the latter an element object. */
-        var menu = document.getElementsByClassName("menu")[0];
-        var home_menu = menu.getElementsByClassName('home_menu').item(0);
-         if (home_menu.style.visibility === "visible"){
-             home_menu.style.visibility = "hidden";
-         } else{
-            home_menu.style.visibility = "visible";
-         }
-             console.log(home_menu.style.visibility)
-    }
-</script>
-<div class="featured">
-    <span class="album">
-        Stay Down<br>Till You<br> Come Up
-    </span>
-    <span class="out_now">
-        Out Now
-    </span>
-</div>
-<div class="footer" style="display: none;">
-</div>
-<!--<div class="profile"></div>
-<div class="featured">
-<h2 style="text-align: right; margin: 0.4rem 0rem">Out now</h2>
-    David Hill better known as Young Ess is an upcoming UK rapper from South London. He began making music in his early teens after being heavily influenced by the likes of Giggs, Nipsey Hussle, Jay-Z and Chronixx. He has released his official debut album ‘Stay Down Till You Come Up’ 2 nd Feb. The album highlights his return to music as a conscious rapper with a lot of knowledge and life experiences to share, through his unique narrative in his music. Expect plenty of buzz around Young Ess this year from live shows to future releases.</div>
-<div id="header-logo"><img src="logo_ess.svg" alt=""></div>
-<nav class="flex-container">
-<ul>
-<li><a href="">about</a></li>
-<li><a href="">dates</a></li>
-<li><a href="">merch</a></li>
-<li><a href="">connect</a></li>
-</ul>
-</nav>
-<br>
-<div style="grid-row: 4; color: #fe346e ;">Young Ess is an upcoming UK rapper from South London. He began making music in his early teens after being heavily influenced by the likes of Giggs, Nipsey Hussle, Jay-Z and Chronixx. He has released his official debut album ‘Stay Down Till You Come Up’ 2nd Feb. The album highlights his return to music as a conscious rapper with a lot of knowledge and life experiences to share, through his unique narrative in his music. Expect plenty of buzz around Young Ess this year from live shows to future releases.</div>
-<div class="body-item">About</div>
-<div class="body-item">Dates</div>
-<div class="body-item">Merch</div>
-<div class="body-item">Social</div>
-<script> 
-
-var i;
-for (i=0; i<(16*16); i++) {
-var grid = document.getElementById("body-grid");
-var item = document.createElement("div");
-item.className = "grid-child";
-grid.appendChild(item);
-
-}
-
-</script>
-
--->
-
-</div>
-</body>
+            <div class="featured">
+                <span class="album">
+                    Stay<br>Down<br>Till You<br> Come Up
+                </span>
+                <span class="out_now">
+                    Out Now
+                </span>
+            </div>
+            
+    </body>
 </html>

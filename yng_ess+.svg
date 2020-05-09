@@ -70,7 +70,7 @@
     <path
        id="path844"
        transform="matrix(0.26458333,0,0,0.26458333,71.4375,50.937496)"
-       style="opacity:1;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:1;fill:#7d8c6bff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 90,0 v 45 h 10 20 v 60 H 90 v 10 15 h 40 V 115 105 45 35 10 0 h -10 -20 z m 10,10 h 20 V 35 H 100 Z M 0,0 v 35 10 c 10,0 20,0 30,0 v 60 H 0 c 0,8.33333 0,16.66667 0,25 h 40 c 0,-8.33333 0,-16.66667 0,-25 V 0 H 30 V 35 H 10 V 0 Z m 0,50 v 10 10 10 10 10 H 10 25 V 90 H 10 V 80 H 20 V 70 H 10 V 60 H 25 V 50 H 10 Z m 90,0 v 10 10 10 h 15 V 90 H 90 v 10 h 25 V 90 70 h -5 -10 V 60 h 15 V 50 h -15 z m -45,0 v 10 25 h 10 20 v 20 H 55 V 90 H 45 v 15 10 15 h 40 v -15 -5 -5 -30 H 75 55 V 60 H 75 V 70 H 85 V 60 50 H 75 55 Z M 45,0 V 45 H 55 V 15 L 75,45 H 85 V 0 H 75 V 30 L 55,0 Z"
        inkscape:connector-curvature="0" />
   </g>
