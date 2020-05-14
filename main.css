@@ -34,7 +34,7 @@ body {
 
 
 
-@media only screen and (max-width: 420px) and (min-width: 180px){
+@media only screen and (max-width: 600px) and (min-width: 180px){
 	
 	body {
 		grid-template: 10vh 1fr repeat(4, 10vh) / 1fr;
