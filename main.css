@@ -27,6 +27,7 @@ body {
 	background-image: url(young_ess.jpg);
 	display: grid;
 	height: 100vh;
+	height:calc(var(--vh, 1vh) * 100);
 	width: 100vw;
 }
 
@@ -51,6 +52,12 @@ body {
 		padding: 2vh;
 	}
 	
+	.main_logo{
+		float: left; 
+		width: 6vh; 
+		height:6vh;
+	}
+
 	.logo_yng {
 		width: 100%;
 	}
@@ -60,7 +67,12 @@ body {
 		width: 6vh;
 		float: right;
 	}
-
+	.hamburger{
+		width: 6vh; 
+		height: 1vh; 
+		margin-bottom: 1vh; 
+		background-color: #4b5e47ff;
+	}
 	.home_menu{
 		font-family: 'Teko', sans-serif;
 		font-size: 8vh;
