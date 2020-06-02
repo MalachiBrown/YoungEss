@@ -45,11 +45,12 @@ body {
 	header{
 		grid-area: 1 / 1 / 2 / 2;
 		background-color: #323c2bff;
+		z-index: 3;
 	}
 	.menu{
 		width: 100%;
 		height: 100%;
-		padding: 2vh;
+		padding: 2vh
 	}
 	
 	.main_logo{
@@ -67,20 +68,47 @@ body {
 		width: 6vh;
 		float: right;
 	}
-	.hamburger{
-		width: 6vh; 
-		height: 1vh; 
-		margin-bottom: 1vh; 
-		background-color: #4b5e47ff;
+
+	.hamburger_icon{
+		float:right; 
+		width: 11vw; 
+		height: 11vw;
+	
 	}
+	
+	.hamburger{
+		height:2vw; 
+		width:100%;
+		fill: #7d8c6b;
+	}
+
+	.hamburger_icon:hover{
+		fill: red;
+
+	}
+
 	.home_menu{
 		font-family: 'Teko', sans-serif;
 		font-size: 8vh;
 		visibility: hidden;
-		text-align: right;
-		margin-top: 10vh;
+		margin-top: 8vh;
 		line-height: 9vh;
-		color: ghostwhite;
+		color: #7d8c6bff;
+		background-color: #323c2baa;
+		text-align: center ;
+		overflow: hidden;
+		
+	}
+
+	.home_menu ul a {
+		display: block;
+		transition: background-color .5s ease-in;
+	}
+
+	.home_menu ul a:hover {
+		background-color:#323c2bff ;
+		transition: background-color 1s ease-in;
+
 	}
 
 	.featured {
@@ -112,7 +140,18 @@ body {
 		margin-top: 17.9vh;
 		height: 8vh;
 		min-width: 128px;
-
+	}
+	main {
+		grid-area: 2 / 1 / 7 / 2; 
+		margin: 30vh 5% 0;
+		padding:2vw; 
+		background: #ffffffdd;
+	}
+	article h2{
+		color: #323c2bff;
+	}
+	article p {
+		font-size: 2.4vh;
 	}
 }
 

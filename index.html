@@ -11,16 +11,16 @@
     <body>
             <header>
             	<nav class="menu">
-            	    <div class="main_logo"><img class="logo_yng" srcset="yng_ess+.svg"></div>
-            	    <div class="home_btn" onclick="displayMenu();">
-                        <div class="hamburger"></div>
-                        <div class="hamburger"></div>
-                        <div class="hamburger"></div>
-            	    </div>
+            	    <div class="main_logo"><img class="logo_yng" srcset="yng_ess+.svg" alt=""></div>
+                        <svg role="button" class="hamburger_icon" onclick="displayMenu()">
+                            <rect class="hamburger"></rect>
+                            <rect y="33%" class="hamburger"></rect>
+                            <rect y="66%" class="hamburger"></rect>
+                        </svg>
             	    <div class="home_menu">
             	        <ul>
-            	            <li>Home</li>
-            	            <li><a href="https://ditto.fm/stay-down-till-you-come-up">Music</a></li>
+                            <li><a href="#">Home</a></li>
+            	            <li><a href="https://ditto.fm/stay-down-till-you-come-up" target="_blank">Music</a></li>
             	            <li><a href="video.html">Videos</a></li>
             	            <li><a href="about.html">About</a></li>
             	            <li><a href="connect.html">Connect</a></li>
@@ -33,9 +33,9 @@
                 <span class="album">
                     Stay<br>Down<br>Till You<br> Come Up
                 </span>
-                <span class="out_now">
-                    <a href="https://ditto.fm/stay-down-till-you-come-up">Out Now</a>
-                </span>
+                <a class="out_now" href="https://ditto.fm/stay-down-till-you-come-up" target="_blank">
+                    Out Now
+                </a>
             </div>
             
     </body>
