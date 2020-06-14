@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Teko:700,300,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:900&display=swap');
 
 :root {
 	font-size: 5vw;
@@ -24,14 +24,37 @@ ul {
 
 body {
 	background-position: top center;
-	background-image: url(young_ess.jpg);
+	background-image: url(final_cut.png);
 	display: grid;
 	height: 100vh;
 	height:calc(var(--vh, 1vh) * 100);
 	width: 100vw;
+	background-size: cover;
+	background-position: center;
 }
 
 
+.home_menu{
+	font-family: 'Cinzel Decorative';
+	font-size: 5vh;
+
+}
+
+.hamburger_icon, .featured{
+	display:none;
+}
+
+
+
+header{
+
+	margin-left: 2vw;
+	margin-top: 6vw;
+}
+
+.logo_yng{
+	width: 6vh;
+}
 
 
 @media only screen and (max-width: 600px) and (min-width: 180px){
@@ -46,6 +69,8 @@ body {
 		grid-area: 1 / 1 / 2 / 2;
 		background-color: #323c2bff;
 		z-index: 3;
+		margin-left: 0;
+		margin-top: 0;
 	}
 	.menu{
 		width: 100%;
@@ -60,7 +85,7 @@ body {
 	}
 
 	.logo_yng {
-		width: 100%;
+		width: 6vh;
 	}
 
 	.home_btn{
@@ -73,7 +98,7 @@ body {
 		float:right; 
 		width: 11vw; 
 		height: 11vw;
-	
+		display: inline;
 	}
 	
 	.hamburger{
@@ -88,8 +113,8 @@ body {
 	}
 
 	.home_menu{
-		font-family: 'Teko', sans-serif;
-		font-size: 8vh;
+		font-family: 'Cinzel Decorative', sans-serif;
+		font-size: 8vw;
 		visibility: hidden;
 		margin-top: 8vh;
 		line-height: 9vh;
@@ -116,11 +141,11 @@ body {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 6vw;
-		font-family: 'Teko', sans-serif;
-		font-size: 8vh;
+		font-family: 'Cinzel Decorative', sans-serif;
+		font-size: 8vw;
 		text-shadow: .2vw .2vw #4b5e47ff;
 		font-weight: 500;
-		line-height: 9vh;
+		line-height: 11vw;
 	}
 
 	.album {
