@@ -154,15 +154,19 @@ article {
 		
 	}
 
-	.home_menu ul a {
+	.block_menu a {
 		display: block;
 		transition: background-color .5s ease-in;
 	}
 
-	.home_menu ul a:hover {
+	.block_menu a:hover {
 		background-color:#323c2bff ;
 		transition: background-color 1s ease-in;
+	}
 
+	.connect_icon {
+		display: inline;
+		
 	}
 
 	.featured {
