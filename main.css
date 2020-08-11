@@ -40,6 +40,10 @@ body {
 
 }
 
+.connect_icon img {
+	vertical-align: top;	
+}
+
 .hamburger_icon, .featured{
 	display:none;
 }
@@ -167,6 +171,10 @@ article {
 	.connect_icon {
 		display: inline;
 		
+	}
+
+	.connect_icon img {
+		vertical-align: middle;	
 	}
 
 	.featured {
